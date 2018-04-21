@@ -52,7 +52,7 @@ Armagh_54.352 <- na.omit(myData8)
 
 #---------------------------------------------------
 
-#NB We lose this station because there is too much missing data from various fields
+#NB We lose this station because there is too much missing data from various fields.
 
 myData <- read.table("C:/Users/ballanr/.spyder-py3/Dataset1_Cleaned/Ballypatrick_55.181.txt")
 colnames(myData) <- c("year","month","tmax","tmin","frost","rain","sun")
